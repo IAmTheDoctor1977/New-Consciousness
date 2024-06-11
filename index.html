@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>States of Consciousness Maze Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maze-container">
+        <div id="start" class="cell">Start</div>
+        <div id="Q1" class="cell question" data-question="1">Q1</div>
+        <div id="Q2" class="cell question" data-question="2">Q2</div>
+        <div id="Q3" class="cell question" data-question="3">Q3</div>
+        <div id="Q4" class="cell question" data-question="4">Q4</div>
+        <div id="Q5" class="cell question" data-question="5">Q5</div>
+        <div id="Q6" class="cell question" data-question="6">Q6</div>
+        <div id="Q7" class="cell question" data-question="7">Q7</div>
+        <div id="Q8" class="cell question" data-question="8">Q8</div>
+        <div id="end" class="cell">Exit</div>
+    </div>
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="question-text">Question</h2>
+            <button class="answer" data-answer="1">Option 1</button>
+            <button class="answer" data-answer="2">Option 2</button>
+            <button class="answer" data-answer="3">Option 3</button>
+            <button class="answer" data-answer="4">Option 4</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
